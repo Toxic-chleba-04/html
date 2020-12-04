@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.col {
+    float: left;
+    padding: 10px;
+    height: 60px; 
+    text-align: center;
+    display: block;
+}
+
+.vlevo, .vpravo {
+    width: 25%;
+
+}
+
+.stred {
+    width: 50%;
+
+}
+
+
+.r:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    width: 100%;
+}
+  
+li {
+    float: left;
+    height: 40px;
+    width: 25%;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    padding-top: 13px;
+    font-size: 20px;
+}
+  
+li a:hover {
+    background-color: rgba(248, 248, 248, 0.308);
+   
+}
+
+.fa-facebook:hover  {
+    background: #3B5998;
+    color: white;
+}
+.fa-google:hover  {
+    background: #dd4b39;
+    color: white;
+}
+.fa-youtube:hover  {
+    background: #bb0000;
+    color: white;
+}
+.fa-rss:hover  {
+    background: #ff6600;
+    color: white;
+}
+
+
+
+#mySid a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySid a:hover {
+    left: 0;
+}
+
+#green {
+    top: 220px;
+    background-color: #4CAF50;
+}
+
+#blue {
+    top: 280px;
+    background-color: #2196F3;
+}
+
+#red {
+    top: 340px;
+    background-color: #f44336;
+}
+
+#reset {
+    top: 400px;
+    background-color: rgba(78, 64, 64, 0.842)
+}
+
+#nav {
+    width:750px;
+    margin:0 auto;
+    list-style:none;
+}
+#nav li {
+    float:left;
+}
+#nav a {
+    display:block;
+    text-align:center;
+    width:150px; 
+    text-decoration:none; 
+}

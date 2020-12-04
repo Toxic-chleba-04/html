@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sli.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>  
+    <script src="cas2.js"></script>
+    <script src="open.js"></script>
+    <script src="contact.js"></script>
+    <script src="barva.js"></script>
+
+    <div class="r">
+        
+        <div class="col vlevo" style="background-color:#333;">
+            <ul>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-google"></a></li>
+                <li><a href="#" class="fa fa-youtube"></a></li>
+                <li><a href="#" class="fa fa-rss"></a></li>
+            </ul>    
+        </div>
+        
+        <div class="col stred" style="background-color:  #333;">
+          <h1 style="text-align: center;top: 10px;display: inline;">LOGO</h1>
+        </div>
+
+        <div class="col vpravo" style="background-color: #333;"> 
+            <a href="#" > POGERS </a>
+        </div>
+        
+    </div>
+
+    <div class="navbar" style="height: auto;">
+        <ul id="nav">
+            <li><a href="ukazka.html" class="active">🏠</a></li>
+            <li><a href="ukazka copy.html">LOGIN</a></li>
+            <li><a onclick="contact()">Contact</a></li>
+            <li><a href="c.html">C# ©</a></li>
+        </ul>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+        <a id="logina" onclick="login()">👉 login</a>
+    </div>
+
+    <div class = "area-1" style="margin-bottom: 10px;padding: 0px ;">
+        <div class="header">
+            <h1>Html / Javascript / Php Ukázka</h1>
+            <p>Poggers</p>
+            <button><a href="#GG"class="duha-text ">Click</a></button>
+        </div>  
+    </div>
+
+    <div id="mySid" class="sid">
+        <a href="#" id="green" onclick="zelena()">Zelená</a>
+        <a href="#" id="blue"  onclick="modra()">Modrá</a>
+        <a href="#" id="red" onclick="cervena()">Červená</a>
+        <a href="#" id="reset" onclick="reset()">Reset</a>
+    </div>
+    
+    <h1 style="text-align:center"><b style="font-family:sofia;font-size:40px;color: blanchedalmond;"> Tyto hry jsem vytvořil v c# v unity </b></h1>
+
+    <div class = "area-1"> 
+        <h1 style="text-align:center;font-family:Comic Sans MS, cursive, sans-serif;height: 35px;"class="duha-text ">Jsou to hry na mobil</h1>   
+        <div class="container" style= "background: #171627";>
+            <div class="row">
+
+                <div class="column" >
+                    <div class="card">
+                        <h2 style="background: #001aff;">1 HRA</h2>
+                        <img src="unnamed.jpg.webp" >
+                        <a class="games-btn" href="https://play.google.com/store/apps/details?id=com.Toxictycoon.opatbobrun" target="_blank">Play Now</a>
+                    </div>
+                </div>
+
+                <div class="column" >
+                    <div class="card">
+                        <h2 style="background: #0962e7;">2 HRA</h2>                      
+                        <img src="2.webp">
+                        <a class="games-btn" href="https://play.google.com/store/apps/details?id=com.ToxicTycoon.OPATFLY"target="_blank">Play Now</a>
+                    </div>
+                </div>
+
+                <div class="column" >   
+                    <div class="card">
+                        <h2 style="background: hsla(246, 80%, 60%, 0.945);"> 3 HRA</h2>                      
+                        <img src="3.webp">
+                        <a class="games-btn" href="https://play.google.com/store/apps/details?id=com.ToxicTycoon.JUMPBALL"target="_blank">Play Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <h1>Github Projukty </h1>
+            <a href="https://github.com/Toxic-chleba-04"><img src="stažený soubor.png" alt="ree"></a>
+        </div>
+
+    </div>
+
+    <div class="bg-img"id="bg-img">
+        
+        <h1>Login</h1>  
+        <a class="closed" style="left:10px" onclick="closed()">❌</a>
+
+        <label for="email"><b>Email 📧</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="psw"><b>Heslo 🔑</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit" class="btn" onclick="closed()">Login</button>
+        </form>
+    </div>
+
+    <div class="contact-section">
+        <div class="container-info">
+            <div class="center-box">
+                <div class="center-inner">
+
+                    <div class="info">
+                        <div class="contact-info-block">
+                            <div class="inner ">
+                                <h4 class="duha-text" >Email</h4>
+                                <p class="duha-text">dominik.gombos@gmail.com </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-block">
+                            <div class="inner ">                               
+                                <h4 class="duha-text">Telefon</h4>
+                                <p class="duha-text ">605310612 📞</p>
+                            </div>
+                        </div>
+
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "area-1" id="GG" style="padding: 0px;">
+        <footer class="footer-distributed duha">
+        
+            <div class="footer-left">
+        
+                <h3>Nazev<span>logo</span></h3>
+        
+                <p class="footer-links">
+                    <a href="#">Home</a>
+                    ·
+                    ·
+                    <a href="#">About</a>
+                    ·
+                    ·
+                    <a href="#">Contact</a>
+                </p>
+        
+                <p class="footer-company-name">Nazev © 2020 XD</p>
+        
+                <div class="footer-icons">
+            
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+            
+                </div>
+        
+            </div>
+        
+            <div class="footer-right">
+        
+                <p>Contact</p>
+        
+                <form action="#" method="post">
+            
+                    <input type="text" name="email" placeholder="Email">
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <button>Send</button>
+            
+                </form>
+        
+            </div>
+        
+        </footer>
+    
+    </div>
+    
+    <div style="text-align: center; font-size: 70px;color: white;"class="fixed">💀 <span id="time" style="color: red;">05:00</span> 💀</div>
+</body>
+</html>
+
